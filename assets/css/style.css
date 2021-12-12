@@ -1,0 +1,183 @@
+/*principal*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {   
+    padding: 20px 0;
+    /* background: #cccccc; */
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;    
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: darkorange;        
+}
+
+/*banner da pagina do dojan*/
+#banner {
+    width: 100%;
+}
+
+.pricipal {
+    padding: 3em;
+    background: #fefefe;
+    width: 940px;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    text-align: center;
+}
+
+.principal p {
+    margin:0 0 1em ;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+/*mapa*/
+
+.mapa {
+    padding: 3em 0;    
+}
+
+.mapa h3, h4 {
+    margin: 0 0 2em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.beneficios {
+    padding: 3em 0;
+    /* background: #88888888; */
+}
+
+.conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios ul {    
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+
+.itens {
+    line-height: 2.5;
+        
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens:before {
+    content: "✭";
+    
+}
+
+.imagem-beneficios {
+    width: 50%;
+    opacity: 1;    
+    transition: 400ms;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
+}
+
+
+/*CSS academia*/
+
+main {
+    text-align: center;
+}
+
+.academia {
+   width: 940px; 
+   margin: 0 auto;
+   padding: 50px 0;
+}
+
+.academia li {
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+    vertical-align: top;    
+    margin: 0 1%;
+    padding: 15px;
+    box-sizing: border-box;    
+    border: 2px solid #000000;
+    border-radius: 20px;   
+    
+}
+
+.imagem-resolucao {
+    width: 620px;
+    height: auto;    
+}
+
+.academia h2 {
+    padding: 15px;
+}
+
+
+footer {
+    text-align: center;
+    background: url(assets/img/t.jpg);
+    padding: 40px;
+    
+}
+
+.Copyright {
+    color: #FFFFFF;
+    font: 13px;
+    margin: 20px 0 0;
+}
