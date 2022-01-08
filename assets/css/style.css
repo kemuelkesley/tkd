@@ -108,6 +108,10 @@ nav a:hover {
     width: 30%;
 }
 
+.lista-beneficios li {
+    list-style-type: none;
+}
+
 .itens {
     line-height: 2.5;
         
