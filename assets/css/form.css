@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: brown; */
+    
+}
+
+.pai {
+    display: flex;
+    list-style: none;
+    margin-right: 300px;
+    font-size: 20px;
+   
+    
+}
+
+.child {
+    /* margin-right: 1.5rem;
+    margin-left: 1.5rem; */
+    margin: 0 0 0 15px;
+    text-transform: uppercase;   
+    
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.links {
+    text-decoration: none;
+    color: #000000;
+}
+
+nav a:hover {
+    color: darkorange;    
+     
+}
+
+/* Formulario */
+
+.title {
+    text-align: center;
+}
+
+#form {
+    margin-top: 1rem;
+    width: 60%;
+    margin-left: 20%;
+    
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+
+#button {
+    text-align: center;
+    margin-top: 5px;
+}
+
